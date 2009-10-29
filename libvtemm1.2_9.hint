@@ -1,0 +1,5 @@
+category: Gnome
+requires: libatkmm1.6_1 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtkmm2.4_1 libpangomm1.4_1 libsigc2.0_0 libstdc++6 libvte9
+external-source: libvtemm1.2
+sdesc: "C++ VTE bindings (runtime)"
+ldesc: "C++ bindings for the GNOME virtual terminal emulator widget."

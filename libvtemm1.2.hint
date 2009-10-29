@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "C++ VTE bindings (sources)"
+ldesc: "C++ bindings for the GNOME virtual terminal emulator widget."

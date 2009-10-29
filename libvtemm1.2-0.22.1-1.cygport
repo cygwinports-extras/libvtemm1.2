@@ -1,0 +1,6 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} ${PN}_9 ${PN}-devel ${PN}-doc"
+libvtemm1_2_9_CONTENTS="usr/bin/cygvtemm-1.2-9.dll usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
+libvtemm1_2_devel_CONTENTS="usr/include/ usr/lib/"
+libvtemm1_2_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/libvtemm-1.2/ usr/share/libvtemm-1.2/"
