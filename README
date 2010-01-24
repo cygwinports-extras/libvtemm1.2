@@ -3,27 +3,27 @@ libvtemm1.2
 C++ bindings for the GNOME virtual terminal emulator widget.
 
 Runtime requirements:
-  cygwin-1.7.0-62
+  cygwin-1.7.1-1
   libatkmm1.6_1-2.18.0-1
-  libgcc1-4.3.4-1
-  libglib2.0_0-2.22.2-1
+  libgcc1-4.3.4-3
+  libglib2.0_0-2.22.4-1
   libglibmm2.4_1-2.22.1-1
   libgtkmm2.4_1-2.18.2-1
-  libpangomm1.4_1-2.26.0-1
+  libpangomm1.4_1-2.26.2-1
   libsigc2.0_0-2.2.4.2-1
-  libstdc++6-4.3.4-1
-  libvte9-0.22.3-1
+  libstdc++6-4.3.4-3
+  libvte9-0.22.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.11-1.11-10
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
   binutils-2.19.51-1
-  cygport-0.9.10-1
+  cygport-0.9.80-1
   gawk-3.1.7-1
-  gcc4-core-4.3.4-1
-  gcc4-g++-4.3.4-1
-  libtool-2.2.7a-14
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-2
   mm-common-0.8-1
   pkg-config-0.23b-10
@@ -38,21 +38,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libvtemm1.2-0.22.1-X-src.tar.bz2
+  unpack libvtemm1.2-0.22.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libvtemm1.2-0.22.1-X.cygport all
+  cygport ./libvtemm1.2-0.22.2-X.cygport all
 
 This will create:
-  /usr/src/libvtemm1.2-0.22.1-X-src.tar.bz2
-  /usr/src/libvtemm1.2-devel-0.22.1-X.tar.bz2
-  /usr/src/libvtemm1.2-doc-0.22.1-X.tar.bz2
-  /usr/src/libvtemm1.2_9-0.22.1-X.tar.bz2
+  /usr/src/libvtemm1.2-0.22.2-X-src.tar.bz2
+  /usr/src/libvtemm1.2-devel-0.22.2-X.tar.bz2
+  /usr/src/libvtemm1.2-doc-0.22.2-X.tar.bz2
+  /usr/src/libvtemm1.2_9-0.22.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.22.2-1 -----
+Version bump.
 
 ----- version 0.22.1-1 -----
 Version bump for GNOME 2.28.
